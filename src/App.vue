@@ -1,7 +1,9 @@
-<script setup>
+<script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from "./components/HelloWorld.vue";
+const developerMood: string = "Thrilled for typescript";
+
+import HelloWorld from "@/components/HelloWorld.vue";
 </script>
 
 <template>
@@ -11,6 +13,9 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <style>
 #app {
+  & p {
+    color: #d3dad2;
+  }
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
