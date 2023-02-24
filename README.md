@@ -16,7 +16,7 @@ or
 npx degit BTchiaga/vite-vue3-eslint-prettier [project-name]
 ```
 
-## Install the dependencies and lauch development server
+## Install the dependencies and launch development server
 
 ```
 npm install
